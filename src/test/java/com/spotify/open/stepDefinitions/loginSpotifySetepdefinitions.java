@@ -1,17 +1,8 @@
-package com.demoblaze.stepDefinitions;
-/*
- * @(#) LoginBlazeStepdefinitions.java 11.0
- * Copyright 2023 SQA. Todos los derechos reservados.
- */
+package com.spotify.open.stepDefinitions;
 
 import io.cucumber.java.es.*;
 
-/**
- * @autor Rafael Chica
- * @Fecha: --o--
- */
-public class LoginBlazeStepdefinitions {
-
+public class loginSpotifySetepdefinitions {
     @Dado("que el usuario abr el navegador e ingrese a login")
     public void queElUsuarioAbreLNavegadorEIngreseALogin() {
 

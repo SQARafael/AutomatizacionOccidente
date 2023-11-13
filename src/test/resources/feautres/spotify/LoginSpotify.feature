@@ -1,7 +1,7 @@
 #language: es
-Característica: Login en Spotify
+Característica: Iniciar sesión en Spotify
 
-  Escenario: Login exitoso en spotify
-    Dado que el usuario abre el navegador y de clic al boton login
-    Cuando el usuario ingrese las credenciales correctas
-    Entonces el usuario podrá ver su perfil
+  Escenario: Login exitoso en demo blaze
+    Dado que el usuario abre l navegador e ingrese a login
+    Cuando el usuario ingrese las credenciales
+    Entonces el usuario podrá ver la bienvenida del perfil
