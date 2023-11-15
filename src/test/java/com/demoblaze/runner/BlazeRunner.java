@@ -9,8 +9,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 /**
- * @autor Rafael Chica
- * @Fecha: --o--
+ * @autor Rafael Chica * @Fecha: --o--
  */
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
