@@ -1,8 +1,6 @@
 package com.demoblaze.steps;
-
 import com.demoblaze.pageObject.InicioSesionPage;
 import net.thucydides.core.annotations.Step;
-import net.thucydides.core.annotations.Steps;
 import org.fluentlenium.core.annotation.Page;
 
 public class InicioSesionSteps {
@@ -11,15 +9,15 @@ public class InicioSesionSteps {
     InicioSesionPage inicioSesionPage;
 
     @Step("Ingresar datos usuario")
-    public void insertarCredenciales(){
+    public void insertarCredenciales(String mail, String psw){
         inicioSesionPage.getDriver().findElement(inicioSesionPage.getTxtUsuario())
-                .sendKeys("carl@mail.com");
+                .sendKeys(mail);
 
         inicioSesionPage.getDriver().findElement(inicioSesionPage.getTxtClave())
-                .sendKeys("1234");
+                .sendKeys(psw);
     }
 
-    @Step("Clic boton inicio sesion")
+    @Step("Clic btn inicio sesion")
     public void clicInicioSesion(){
         inicioSesionPage.getDriver().findElement(inicioSesionPage.getBtnInicioSesion())
                 .click();

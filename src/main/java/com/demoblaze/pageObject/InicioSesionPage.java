@@ -1,5 +1,8 @@
 package com.demoblaze.pageObject;
-
+/*
+ * @(#) InicioSesionPage.java 11.0
+ * Copyright 2023 SQA. Todos los derechos reservados.
+ */
 import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.By;
 

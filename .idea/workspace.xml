@@ -21,12 +21,16 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+<<<<<<< HEAD
         <projects_view>
           <tree_state>
             <expand />
             <select />
           </tree_state>
         </projects_view>
+=======
+        <projects_view />
+>>>>>>> main
       </state>
     </system>
   </component>
@@ -38,6 +42,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -48,12 +53,20 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+>>>>>>> main
   <component name="ProjectId" id="2XzYiwczYovEaNOk3r1qHVXWIjT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -86,6 +99,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/semillero/Occidente/AutomatizacionOccidente/src/main/java/com/demoblaze/utils",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\semillero\Occidente\AutomatizacionOccidente\src\main\java\com\demoblaze\utils" />
+      <recent name="C:\semillero\Occidente\AutomatizacionOccidente\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+>>>>>>> main
     <configuration name="BlazeRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -110,6 +140,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="SpotifyRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -139,6 +170,11 @@
         <item itemvalue="Gradle.BlazeRunner" />
         <item itemvalue="Gradle.SpotifyRunner" />
         <item itemvalue="Cucumber Java.Scenario: Login exitoso en demo blaze" />
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BlazeRunner" />
+>>>>>>> main
       </list>
     </recent_temporary>
   </component>
@@ -163,5 +199,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/demoblaze/stepDefinitions/LoginBlazeStepdefinitions.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
