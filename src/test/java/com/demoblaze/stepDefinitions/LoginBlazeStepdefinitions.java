@@ -6,6 +6,7 @@ package com.demoblaze.stepDefinitions;
 
 import com.demoblaze.steps.InicioSesionSteps;
 import com.demoblaze.steps.PaginaInicialSteps;
+import com.demoblaze.steps.ValidacionPerfil;
 import io.cucumber.java.es.*;
 import net.thucydides.core.annotations.Steps;
 
@@ -20,6 +21,9 @@ public class LoginBlazeStepdefinitions {
 
     @Steps
     InicioSesionSteps inicioSesionSteps;
+
+    @Steps
+    ValidacionPerfil validacionPerfil;
 
     @Dado("que el usuario abre l navegador e ingrese a login")
     public void queElUsuarioAbreLNavegadorEIngreseALogin() {
@@ -36,6 +40,7 @@ public class LoginBlazeStepdefinitions {
     }
     @Entonces("el usuario podrá ver la bienvenida del perfil")
     public void elUsuarioPodráVerLaBienvenidaDelPerfil() {
+        validacionPerfil.validacionPerfil();
 
     }
 }
