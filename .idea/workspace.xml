@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1faf5c2b-76e8-4b3f-931e-3ebb954ad0d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/utils/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/utils/Excel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/steps/InicioSesionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/steps/InicioSesionSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/steps/ValidacionPerfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/steps/ValidacionPerfil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepDefinitions/LoginBlazeStepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepDefinitions/LoginBlazeStepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feautres/LoginBlaze.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feautres/LoginBlaze.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +43,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/semillero/Occidente/AutomatizacionOccidente/src/test/resources",
+    "last_opened_file_path": "C:/semillero/Occidente/AutomatizacionOccidente/src/main/java/com/demoblaze/utils",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\semillero\Occidente\AutomatizacionOccidente\src\main\java\com\demoblaze\utils" />
       <recent name="C:\semillero\Occidente\AutomatizacionOccidente\src\test\resources" />
     </key>
   </component>
@@ -102,5 +104,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/demoblaze/stepDefinitions/LoginBlazeStepdefinitions.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

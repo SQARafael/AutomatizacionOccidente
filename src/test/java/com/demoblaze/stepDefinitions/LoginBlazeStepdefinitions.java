@@ -25,17 +25,15 @@ public class LoginBlazeStepdefinitions {
     @Steps
     ValidacionPerfil validacionPerfil;
 
-    @Dado("que el usuario abre l navegador e ingrese a login")
+    @Dado("que el usuario abre el navegador e ingrese a login")
     public void queElUsuarioAbreLNavegadorEIngreseALogin() {
         paginaInicialSteps.abrirNavegador();
         paginaInicialSteps.clicLogin();
 
     }
-    @Cuando("el usuario ingrese las credenciales")
-    public void elUsuarioIngreseLasCredenciales() {
-        String mail="carl@mail.com";
-        String psw="1234";
-        inicioSesionSteps.insertarCredenciales(mail,psw);
+    @Cuando("el usuario ingrese las credenciales usuario {string} y clave {string}")
+    public void enviarCredenciales(String usuario, String clave) {
+        inicioSesionSteps.insertarCredenciales(usuario,clave);
         inicioSesionSteps.clicInicioSesion();
 
 
