@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
  */
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/feautres/LoginBlaze.feature",
+        features = "src/test/resources/features/demoBlaze/LoginBlaze.feature",
         glue = "com.demoblaze.stepDefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )

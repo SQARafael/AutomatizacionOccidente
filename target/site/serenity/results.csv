@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login en Demo Blaze","Login exitoso en demo blaze","SUCCESS","2023-11-14T11:58:13.3897081-05:00[America/Bogota]","0.0","40.1"
+"Login en Demo Blaze","Login exitoso en demo blaze","SUCCESS","2023-11-15T06:42:56.4075447-05:00[America/Bogota]","0.0","10.49"
+"Login en Spotify","Login exitoso en spotify","SUCCESS","2023-11-15T08:32:31.0471537-05:00[America/Bogota]","0.0","0.17"
+"Login en Spotify","Login exitoso en spotify","SUCCESS","2023-11-15T10:02:17.5965818-05:00[America/Bogota]","0.0","15.99"
+"reproduir una cancion en Spotify","reproducir una cancion en spotify","PENDING","2023-11-15T07:40:33.5910227-05:00[America/Bogota]","0.0","0.16"
