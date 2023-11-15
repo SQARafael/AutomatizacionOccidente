@@ -17,12 +17,12 @@ public class InicioSesionSteps {
     InicioSesionPage inicioSesionPage;
 
     @Step("Ingresar datos usuario")
-    public void insertarCredenciales(){
+    public void insertarCredenciales(String mail, String psw){
         inicioSesionPage.getDriver().findElement(inicioSesionPage.getTxtUsuario())
-                .sendKeys("carl@mail.com");
+                .sendKeys(mail);
 
         inicioSesionPage.getDriver().findElement(inicioSesionPage.getTxtClave())
-                .sendKeys("1234");
+                .sendKeys(psw);
     }
 
     @Step("Clic btn inicio sesion")

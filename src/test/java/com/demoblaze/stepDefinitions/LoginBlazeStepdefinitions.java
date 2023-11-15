@@ -33,7 +33,9 @@ public class LoginBlazeStepdefinitions {
     }
     @Cuando("el usuario ingrese las credenciales")
     public void elUsuarioIngreseLasCredenciales() {
-        inicioSesionSteps.insertarCredenciales();
+        String mail="carl@mail.com";
+        String psw="1234";
+        inicioSesionSteps.insertarCredenciales(mail,psw);
         inicioSesionSteps.clicInicioSesion();
 
 
