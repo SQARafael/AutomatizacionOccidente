@@ -1,8 +1,10 @@
 package com.open.spotify.pageObject;
 
+import lombok.Data;
 import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.By;
 
+@Data
 public class InicioSesionSpotifyPage extends PageObject {
 
     private final By txtUsuario= By.id("login-username");
