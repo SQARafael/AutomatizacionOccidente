@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1faf5c2b-76e8-4b3f-931e-3ebb954ad0d8" name="Changes" comment="" />
+    <list default="true" id="1faf5c2b-76e8-4b3f-931e-3ebb954ad0d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotyfy/runner/SpootyyfyyRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/pageObject/InicioSesionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/pageObject/PaginaInicialPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/steps/InicioSesionSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/steps/PaginaInicialSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/runner/BlazeRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepDefinitions/LoginBlazeStepdefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feautres/LoginBlaze.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feautres/spotify/LoginSpotify.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feautres/LoginSpotify.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0cfe08f6ab4adb1e3018016c3472198ef9f1644c6fc8d632fdddaea2bb9038ae.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0cfe08f6ab4adb1e3018016c3472198ef9f1644c6fc8d632fdddaea2bb9038ae.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1bbc6beabd50bf5519fc34dd68c60dd391cdd8a2972d3a45195e073cdaadb41e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1bbc6beabd50bf5519fc34dd68c60dd391cdd8a2972d3a45195e073cdaadb41e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5ecc709d713a24803d31bb85224231fe9169a6998e7da9dd538cbd29778634e1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5ecc709d713a24803d31bb85224231fe9169a6998e7da9dd538cbd29778634e1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5fa98e0afabc3a3e57c06a491966337e5d59e30f4ad4a97825f55092182d45d2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5fa98e0afabc3a3e57c06a491966337e5d59e30f4ad4a97825f55092182d45d2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/653dc6ce0d94c285f86e66b517dd28b677462673e1a95e4bac49f25ac264484b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/653dc6ce0d94c285f86e66b517dd28b677462673e1a95e4bac49f25ac264484b.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a599573cac872683007860a082b9b4ec9a200efa6e63b4467a4070a2aa3c064d.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a599573cac872683007860a082b9b4ec9a200efa6e63b4467a4070a2aa3c064d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/abecfc0c66a7582763dc85c7663a05551e7a326739a610440180b42549973a1c.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/abecfc0c66a7582763dc85c7663a05551e7a326739a610440180b42549973a1c.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e46b6c1d18768d17c446b22c1e706371d52d6be6b7a6cb1a3882bbb3e0919be8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/e46b6c1d18768d17c446b22c1e706371d52d6be6b7a6cb1a3882bbb3e0919be8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +46,193 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2XzYiwczYovEaNOk3r1qHVXWIjT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "delosriososcar",
+    "last_opened_file_path": "C:/Users/lanoi/Documents/Banco de Occidente/Semillero/trabajo colaborativo/AutomatizacionOccidente",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lanoi\Documents\Banco de Occidente\Semillero\trabajo colaborativo\AutomatizacionOccidente\src\test\resources\feautres" />
+      <recent name="C:\Users\lanoi\Documents\Banco de Occidente\Semillero\trabajo colaborativo\AutomatizacionOccidente\src\test\resources\feautres\blaze" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.SpotiRunner">
+    <configuration name="SpootyyfyyRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.spotyfy.runner.SpootyyfyyRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpotiRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.spotyfy.runner.SpotiRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpotyRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.spotyfy.runner.SpotyRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpotyfyRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.spotyfy.runner.SpotyfyRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'AutomatizacionOccidente.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SpotiRunner" />
+        <item itemvalue="Gradle.SpotyfyRunner" />
+        <item itemvalue="Gradle.SpootyyfyyRunner" />
+        <item itemvalue="Gradle.Tests in 'AutomatizacionOccidente.test'" />
+        <item itemvalue="Gradle.SpotyRunner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -29,8 +242,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699633510461</updated>
+      <workItem from="1700016340903" duration="76000" />
+      <workItem from="1700016430327" duration="4720000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
