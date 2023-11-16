@@ -5,31 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1faf5c2b-76e8-4b3f-931e-3ebb954ad0d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spotify/pageObjectModel/IniciosesionPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spotify/pageObjectModel/PaginaInicioPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spotify/steps/Iniciosesionsteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spotify/steps/PaginaIniciosteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Spotify/runner/SpotifyRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Spotify/stepDefinitions/PaginaInicioSpotifyStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/feautres/Spotify/ReproducirCancion.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spotify/pageObjectModel/BuscarPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spotify/steps/Buscarsteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spotify/steps/ValidacionPerfilsteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Document/EsferasImplicitasyexplicitas.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/runner/BlazeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/runner/BlazeRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/feautres/LoginBlaze.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feautres/Blaze/LoginBlaze.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/feautres/spotify/LoginSpotify.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feautres/Spotify/LoginSpotify.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spotify/pageObjectModel/IniciosesionPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spotify/pageObjectModel/IniciosesionPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spotify/pageObjectModel/PaginaInicioPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spotify/pageObjectModel/PaginaInicioPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spotify/steps/Iniciosesionsteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spotify/steps/Iniciosesionsteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spotify/steps/PaginaIniciosteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spotify/steps/PaginaIniciosteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/steps/InicioSesionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/steps/InicioSesionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Spotify/runner/SpotifyRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Spotify/runner/SpotifyRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Spotify/stepDefinitions/PaginaInicioSpotifyStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Spotify/stepDefinitions/PaginaInicioSpotifyStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feautres/Spotify/LoginSpotify.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feautres/Spotify/LoginSpotify.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/0cfe08f6ab4adb1e3018016c3472198ef9f1644c6fc8d632fdddaea2bb9038ae.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0cfe08f6ab4adb1e3018016c3472198ef9f1644c6fc8d632fdddaea2bb9038ae.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/1bbc6beabd50bf5519fc34dd68c60dd391cdd8a2972d3a45195e073cdaadb41e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1bbc6beabd50bf5519fc34dd68c60dd391cdd8a2972d3a45195e073cdaadb41e.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/5ecc709d713a24803d31bb85224231fe9169a6998e7da9dd538cbd29778634e1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5ecc709d713a24803d31bb85224231fe9169a6998e7da9dd538cbd29778634e1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/5fa98e0afabc3a3e57c06a491966337e5d59e30f4ad4a97825f55092182d45d2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5fa98e0afabc3a3e57c06a491966337e5d59e30f4ad4a97825f55092182d45d2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/653dc6ce0d94c285f86e66b517dd28b677462673e1a95e4bac49f25ac264484b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/653dc6ce0d94c285f86e66b517dd28b677462673e1a95e4bac49f25ac264484b.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/a599573cac872683007860a082b9b4ec9a200efa6e63b4467a4070a2aa3c064d.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a599573cac872683007860a082b9b4ec9a200efa6e63b4467a4070a2aa3c064d.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/abecfc0c66a7582763dc85c7663a05551e7a326739a610440180b42549973a1c.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/abecfc0c66a7582763dc85c7663a05551e7a326739a610440180b42549973a1c.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-edge.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-edge.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
@@ -47,6 +44,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,21 +74,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;JavierDiaz&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/JAVIER DIAZ/Documents/GitHub/AutomatizacionOccidente&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "JavierDiaz",
+    "last_opened_file_path": "C:/Users/JAVIER DIAZ/Desktop/Occidente/clase1Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JAVIER DIAZ\Documents\GitHub\AutomatizacionOccidente\src\test\resources\feautres\Blaze" />
@@ -130,7 +137,9 @@
       <option name="presentableId" value="Default" />
       <updated>1699633510461</updated>
       <workItem from="1699973263873" duration="5457000" />
-      <workItem from="1699990217848" duration="8439000" />
+      <workItem from="1699990217848" duration="10405000" />
+      <workItem from="1700110776554" duration="3006000" />
+      <workItem from="1700140902128" duration="3136000" />
     </task>
     <servers />
   </component>

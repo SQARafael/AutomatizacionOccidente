@@ -12,7 +12,7 @@ import org.fluentlenium.core.annotation.Page;
  * @autor Rafael Chica
  * @Fecha: --o--
  */
-public class InicioSesionSteps {
+    public class InicioSesionSteps {
     @Page
     InicioSesionPage inicioSesionPage;
 

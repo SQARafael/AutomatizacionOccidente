@@ -1,0 +1,53 @@
+Teoría de las Esferas Implícitas y Explícitas en QA
+1. Esfera Implícita:
+Definición:
+La esfera implícita en QA se refiere a las actividades de aseguramiento de calidad que ocurren de manera
+inherente y no necesariamente son documentadas formalmente. Estas actividades a menudo se relacionan con la
+cultura organizacional, la experiencia del equipo y las prácticas cotidianas.
+
+Características:
+
+Experiencia del Equipo: La habilidad y conocimiento acumulado por el equipo de desarrollo y QA que se traduce
+en decisiones automáticas de calidad. Cultura Organizacional: La calidad como un valor intrínseco en la
+organización, influyendo en cada fase del desarrollo de software. Revisiones Informales: Discusiones y
+revisiones ad hoc que ocurren durante el proceso de desarrollo.
+
+Ventajas:
+
+Agilidad: La capacidad de adaptarse rápidamente a cambios sin depender de procesos formales.
+Culturalmente Arraigado: La calidad se convierte en parte de la identidad de la organización.
+Desafíos:
+
+Falta de Evidencia Documentada: Dificultad para demostrar la calidad a través de documentación formal.
+Dependencia de Individuos Clave: Riesgo si la calidad depende demasiado de personas específicas.
+
+2. Esfera Explícita:
+Definición:
+La esfera explícita en QA se refiere a actividades formalmente documentadas y planificadas.
+Estas actividades son tangibles y proporcionan evidencia clara de la calidad del software.
+
+Características:
+
+Planes de Pruebas: Documentación detallada que especifica qué se va a probar, cómo y cuándo.
+Casos de Prueba: Escenarios específicos y pasos detallados para validar el comportamiento del software.
+Informes de Defectos: Documentación de problemas encontrados durante las pruebas, junto con su severidad y estado.
+Ventajas:
+
+Evidencia Clara: Proporciona documentación y evidencia tangible de la calidad del software.
+Reproducibilidad: Permite reproducir y corregir fácilmente los problemas identificados durante las pruebas.
+Desafíos:
+
+Rigidez: Puede volverse rígido y lento para adaptarse a cambios rápidos.
+Costoso: Requiere recursos significativos para la planificación, ejecución y documentación.
+
+3. Integración de Esferas Implícitas y Explícitas:
+Importancia:
+Integrar ambas esferas es crucial para lograr un enfoque equilibrado en QA. La esfera implícita aporta flexibilidad y agilidad, mientras que la esfera explícita proporciona evidencia formal y estructura.
+
+Estrategias:
+
+Cultura de Calidad: Fomentar una cultura organizacional que valore la calidad.
+Automatización Selectiva: Automatizar pruebas repetitivas y rutinarias para liberar tiempo para actividades más creativas y exploratorias.
+Feedback Continuo: Mantener un flujo constante de retroalimentación entre las esferas implícitas y explícitas.
+Conclusión:
+Al integrar de manera efectiva estas esferas, las organizaciones pueden lograr un equilibrio que mejora la calidad del software de manera eficiente y efectiva.

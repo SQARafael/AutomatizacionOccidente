@@ -9,13 +9,13 @@ public class Iniciosesionsteps {
     IniciosesionPageObject iniciosesion;
 
     @Step("Ingresar datos usuario")
-    public void insertarCredenciales(){
+    public void insertarCredenciales(String correo,String Contrasena){
 
         iniciosesion.getDriver().findElement(iniciosesion.getTxtUsuario())
-                .sendKeys("diaztorresjavierdario1@gmail.com");
+                .sendKeys(correo);
 
         iniciosesion.getDriver().findElement(iniciosesion.getTxtClave())
-                .sendKeys("Automatizacion2023");
+                .sendKeys(Contrasena);
     }
 
     @Step("Clic btn inicio sesion")

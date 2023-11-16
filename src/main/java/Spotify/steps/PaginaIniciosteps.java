@@ -9,6 +9,7 @@ public class PaginaIniciosteps {
     @Page
     PaginaInicioPageObject paginainiciopageobject;
 
+
     @Step("Abrir el navegador")
     public void abrirNavegador(){
         paginainiciopageobject.openUrl("https:spotify.com");
@@ -18,4 +19,6 @@ public class PaginaIniciosteps {
         paginainiciopageobject.getDriver().findElement(paginainiciopageobject.getLnkLogin())
                 .click();
     }
+
+
 }
