@@ -1,65 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.spotyfy.runner.SpotyfyRunner" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-11-15T13:25:13" hostname="DELOSRIOS" time="23.199">
+<testsuite name="com.spotyfy.runner.SpotyfyRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-16T04:40:03" hostname="DELOSRIOS" time="27.147">
   <properties/>
-  <testcase name="Login exitoso en spotyfy" classname="com.spotyfy.runner.SpotyfyRunner" time="23.199">
-    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[starts-with(@href, 'https://www.spotify.com/co-es/login/?continue=%2Fco-es%2Fpremium%2F%3Futm_source%3Dco-es_brand_contextual-desktop_text%26utm_medium%3Dpaidsearch%26utm_campaign%3Dalwayson_latam_co_premiumbusiness_core_brand%2Bcontextual-desktop%2Btext%2Bexact%2Bco-es%2Bgoogle%26gad%3D1%26gclid%3DCj0KCQiAr8eqBhD3ARIsAIe-buOiCWpuiKIwMBDekDip9t2hOddBmJNEVm4wwv2Izv2fY1BKkvj9MUUaAs1YEALw_wcB%26gclsrc%3Daw.ds%26flow_ctx%3D7450002b-4e86-4939-8cbb-ddc36e69d7b6%253A1699951290')]&quot;}&#10;  (Session info: MicrosoftEdge=119.0.2151.58)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [4cafccbb76be278c1326de69a615b3cc, findElement {using=xpath, value=//a[starts-with(@href, 'https://www.spotify.com/co-es/login/?continue=%2Fco-es%2Fpremium%2F%3Futm_source%3Dco-es_brand_contextual-desktop_text%26utm_medium%3Dpaidsearch%26utm_campaign%3Dalwayson_latam_co_premiumbusiness_core_brand%2Bcontextual-desktop%2Btext%2Bexact%2Bco-es%2Bgoogle%26gad%3D1%26gclid%3DCj0KCQiAr8eqBhD3ARIsAIe-buOiCWpuiKIwMBDekDip9t2hOddBmJNEVm4wwv2Izv2fY1BKkvj9MUUaAs1YEALw_wcB%26gclsrc%3Daw.ds%26flow_ctx%3D7450002b-4e86-4939-8cbb-ddc36e69d7b6%253A1699951290')]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.58, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65058}, msedge: {msedgedriverVersion: 119.0.2151.58 (33e26e7eb4fb..., userDataDir: C:\Users\lanoi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65058/devtoo..., se:cdpVersion: 119.0.2151.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4cafccbb76be278c1326de69a615b3cc" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[starts-with(@href, 'https://www.spotify.com/co-es/login/?continue=%2Fco-es%2Fpremium%2F%3Futm_source%3Dco-es_brand_contextual-desktop_text%26utm_medium%3Dpaidsearch%26utm_campaign%3Dalwayson_latam_co_premiumbusiness_core_brand%2Bcontextual-desktop%2Btext%2Bexact%2Bco-es%2Bgoogle%26gad%3D1%26gclid%3DCj0KCQiAr8eqBhD3ARIsAIe-buOiCWpuiKIwMBDekDip9t2hOddBmJNEVm4wwv2Izv2fY1BKkvj9MUUaAs1YEALw_wcB%26gclsrc%3Daw.ds%26flow_ctx%3D7450002b-4e86-4939-8cbb-ddc36e69d7b6%253A1699951290')]&quot;}
-  (Session info: MicrosoftEdge=119.0.2151.58)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.7.1', revision: 'c6795baf1a3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [4cafccbb76be278c1326de69a615b3cc, findElement {using=xpath, value=//a[starts-with(@href, 'https://www.spotify.com/co-es/login/?continue=%2Fco-es%2Fpremium%2F%3Futm_source%3Dco-es_brand_contextual-desktop_text%26utm_medium%3Dpaidsearch%26utm_campaign%3Dalwayson_latam_co_premiumbusiness_core_brand%2Bcontextual-desktop%2Btext%2Bexact%2Bco-es%2Bgoogle%26gad%3D1%26gclid%3DCj0KCQiAr8eqBhD3ARIsAIe-buOiCWpuiKIwMBDekDip9t2hOddBmJNEVm4wwv2Izv2fY1BKkvj9MUUaAs1YEALw_wcB%26gclsrc%3Daw.ds%26flow_ctx%3D7450002b-4e86-4939-8cbb-ddc36e69d7b6%253A1699951290')]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 119.0.2151.58, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65058}, msedge: {msedgedriverVersion: 119.0.2151.58 (33e26e7eb4fb..., userDataDir: C:\Users\lanoi\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65058/devtoo..., se:cdpVersion: 119.0.2151.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4cafccbb76be278c1326de69a615b3cc
-	at java.base@11.0.19/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base@11.0.19/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base@11.0.19/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base@11.0.19/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-	at app//org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at app//org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at app//net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:239)
-	at app//com.spotyfy.steps.PaginaInicialSteps.clicLogin(PaginaInicialSteps.java:17)
-	at app//com.spotyfy.steps.PaginaInicialSteps$ByteBuddy$h4V0V0d4.clicLogin$accessor$0z8n38VZ(Unknown Source)
-	at java.base@11.0.19/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@11.0.19/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base@11.0.19/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
-	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:518)
-	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:498)
-	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:472)
-	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:211)
-	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:198)
-	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
-	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at app//com.spotyfy.steps.PaginaInicialSteps$ByteBuddy$h4V0V0d4.clicLogin(Unknown Source)
-	at app//com.spotyfy.stepDefinitions.LoginSpotyfyStepdefinitions.queElUsuarioAbreElNavegadorYDeClicAlBotonLogin(LoginSpotyfyStepdefinitions.java:15)
-	at ✽.que el usuario abre el navegador y de clic al boton login(file:///C:/Users/lanoi/Documents/Banco%20de%20Occidente/Semillero/trabajo%20colaborativo/AutomatizacionOccidente/src/test/resources/feautres/LoginSpotyfy.feature:5)
-</failure>
-  </testcase>
+  <testcase name="Login exitoso en spotyfy" classname="com.spotyfy.runner.SpotyfyRunner" time="27.147"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[nov. 15, 2023 8:25:17 A. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+  <system-err><![CDATA[nov. 15, 2023 11:40:04 P. M. org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-Starting Microsoft Edge WebDriver 119.0.2151.58 (33e26e7eb4fba096f2f29de91f90d34b8597be96) on port 4242
+Starting Microsoft Edge WebDriver 119.0.2151.58 (33e26e7eb4fba096f2f29de91f90d34b8597be96) on port 44073
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-nov. 15, 2023 8:25:19 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+nov. 15, 2023 11:40:07 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [prefs]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
-nov. 15, 2023 8:25:19 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+nov. 15, 2023 11:40:08 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 119
-nov. 15, 2023 8:25:19 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+nov. 15, 2023 11:40:08 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
 ?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m

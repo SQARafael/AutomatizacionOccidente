@@ -10,7 +10,7 @@ public class PaginaInicialSteps {
    PaginaInicialPage paginaInicialPage;
     @Step("Abrir rl navegador")
     public void abrirNavegador(){
-        paginaInicialPage.openUrl("https://www.spotify.com/");
+        paginaInicialPage.openUrl("https://open.spotify.com/");
     }
     @Step("Clic btn login")
     public void clicLogin(){

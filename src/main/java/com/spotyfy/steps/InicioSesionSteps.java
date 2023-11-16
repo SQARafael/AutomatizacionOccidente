@@ -9,11 +9,11 @@ public class InicioSesionSteps {
     InicioSesionPage inicioSesionPage;
 
     @Step("Ingresar datos usuario")
-    public void insertarCredenciales(){
+    public void insertarCredenciales(String mail, String psw){
         inicioSesionPage.getDriver().findElement(inicioSesionPage.getTxtUsuario())
-                .sendKeys("osdelrio@gmail.com");
-        inicioSesionPage.getDriver().findElement(inicioSesionPage.getTxtUsuario())
-                .sendKeys("ASdf1234*");
+                .sendKeys(mail);
+        inicioSesionPage.getDriver().findElement(inicioSesionPage.getTxtClave())
+                .sendKeys(psw);
     }
     @Step("Clic btn inicio sesion")
     public void clicInicioSesion(){
