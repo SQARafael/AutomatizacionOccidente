@@ -7,5 +7,4 @@ import org.openqa.selenium.By;
 public class PaginaInicialSpotifyPage extends PageObject {
     private final By btnIniciarSesion= By.xpath("//button[@data-testid='login-button']");
     private final By lnkProfile= By.xpath("//button[@data-testid='user-widget-link']");
-
 }

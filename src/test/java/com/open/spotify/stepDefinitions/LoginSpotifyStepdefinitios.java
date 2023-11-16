@@ -21,8 +21,8 @@ public class LoginSpotifyStepdefinitios {
         paginaInicialSpotifySteps.clicLogin();
     }
     @Cuando("el usuario ingrese las credenciales correctas usuario {string} y clave {string}")
-    public void elUsuarioIngreseLasCredencialesCorrectasUsuarioYClave(String usuario, String clave) {
-        inicioSesionSpotifySteps.insertarCredenciales(usuario,clave);
+    public void elUsuarioIngreseLasCredencialesCorrectasUsuarioYClave(String usuario, String Clave) {
+        inicioSesionSpotifySteps.insertarCredenciales();
         inicioSesionSpotifySteps.clicInicioSesion();
     }
     @Entonces("el usuario podrá ver su perfil")
