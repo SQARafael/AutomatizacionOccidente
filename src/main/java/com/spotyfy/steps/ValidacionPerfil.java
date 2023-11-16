@@ -21,6 +21,7 @@ public class ValidacionPerfil {
     public void validacionPerfil(){
 
 
+
         espera1(paginaInicialPage.getDriver(), paginaInicialPage.getLnkProfile());
         Assert.assertTrue(
                 paginaInicialPage.getDriver().findElement(
