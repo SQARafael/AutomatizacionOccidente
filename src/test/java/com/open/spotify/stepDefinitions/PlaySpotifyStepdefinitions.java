@@ -17,16 +17,18 @@ public class PlaySpotifyStepdefinitions {
     @Steps
     ValidacionPerfil validacionPerfil;
 
+
     @Dado("que el usuario abre el navegador y de clic al boton login")
     public void queElUsuarioAbreElNavegadorYDeClicAlBotonLogin() {
         paginaInicialSteps.abrirNavegador();
         paginaInicialSteps.clickLogin();
             }
-    @Cuando("el usuario ingrese las credenciales correctas")
-    public void elUsuarioIngreseLasCredencialesCorrectas() {
+    @Cuando("el usuario ingrese las credenciales correctas usario {string} clave {string}")
+    public void enviarCredenciales(String usuario, String clave) {
 
-        inicioSesionSteps.insertarUsuario();
-        inicioSesionSteps.insertarClave();
+
+        inicioSesionSteps.insertarUsuario(usuario);
+        inicioSesionSteps.insertarClave(clave);
         inicioSesionSteps.clickInicioSesion();
 
     }

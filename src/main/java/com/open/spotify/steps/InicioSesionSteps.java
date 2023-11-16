@@ -10,17 +10,17 @@ public class InicioSesionSteps {
     InicioSesionPage inicioSesionPage;
 
         @Step("Ingresar Datos Usuario")
-        public void insertarUsuario(){
+        public void insertarUsuario(String eMail){
             inicioSesionPage.getDriver().findElement(inicioSesionPage.getTxtUsuario())
-                    .sendKeys("tavodres@gmail.com");
+                    .sendKeys(eMail);
 
         }
 
 
     @Step("Ingresar clave Usuario")
-    public void insertarClave(){
+    public void insertarClave(String psw){
         inicioSesionPage.getDriver().findElement(inicioSesionPage.getTxtClave())
-                .sendKeys("02173086c");
+                .sendKeys(psw);
     }
 
 
