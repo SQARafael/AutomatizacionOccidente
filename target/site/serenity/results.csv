@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+"Registro de usuario","Registro de usuario exitoso","PENDING","2023-11-15T21:58:12.7981587-05:00[America/Bogota]","0.0","0.11"
+"Registro de usuario","Registro de usuario exitoso","ERROR","2023-11-16T00:14:08.8553511-05:00[America/Bogota]","0.0","18.89"
 "Login en Demo Blaze","Login exitoso en demo blaze","PENDING","2023-11-10T12:04:06.2877888-05:00[America/Bogota]","0.0","0.21"
