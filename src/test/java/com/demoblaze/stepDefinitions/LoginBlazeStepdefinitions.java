@@ -33,7 +33,7 @@ public class LoginBlazeStepdefinitions {
     }
     @Cuando("el usuario ingrese las credenciales usuario {string} y clave {string}")
     public void enviarCredenciales(String usuario, String clave) {
-        inicioSesionSteps.insertarCredenciales(usuario,clave);
+        inicioSesionSteps.insertarCredenciales();
         inicioSesionSteps.clicInicioSesion();
 
 
