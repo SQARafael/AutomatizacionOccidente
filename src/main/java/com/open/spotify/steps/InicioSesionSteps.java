@@ -20,7 +20,7 @@ public class InicioSesionSteps {
     @Step("Ingresar clave Usuario")
     public void insertarClave(){
         inicioSesionPage.getDriver().findElement(inicioSesionPage.getTxtClave())
-                .sendKeys("Gustavo*123");
+                .sendKeys("02173086c");
     }
 
 
