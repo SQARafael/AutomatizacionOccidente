@@ -5,31 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1faf5c2b-76e8-4b3f-931e-3ebb954ad0d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/pages/CrearUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/pages/ValidacionCorreo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/CorreoSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/HomeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alkomprar/steps/NewUserSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alkomprar/runner/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alkomprar/stepDefinitions/RegistroStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/feautres/RegistroDeUsuario.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/pages/IniciarSesion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/pages/ReproducirCancion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/steps/ReproducirSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/steps/sesionSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Data.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/runner/RunnerSpotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/stepDefinitions/LoginSpotifyStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/feautres/LoginSpotify.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alkomprar/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alkomprar/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/runner/BlazeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/runner/BlazeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feautres/spotify/LoginSpotify.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/09053b82ede7eaee72ae5af3d546abb8eefb926d2dd3a7952f9b4f894c105853.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/09053b82ede7eaee72ae5af3d546abb8eefb926d2dd3a7952f9b4f894c105853.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/098b58b274b89f2da4cadcdff44b525224aba865379d301cfede4d5662ad577b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/098b58b274b89f2da4cadcdff44b525224aba865379d301cfede4d5662ad577b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1035252f79545400964728f4b8aad3aaad744ec6e123a579147bf0baedc15a78.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1035252f79545400964728f4b8aad3aaad744ec6e123a579147bf0baedc15a78.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1ac9d82fda28b69eb1a0c1addbb93f0176619a5cde9b69568c69dbd01171050f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1ac9d82fda28b69eb1a0c1addbb93f0176619a5cde9b69568c69dbd01171050f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/27cc765969ce9dcdbc0ae1c4624408fc039967657d6c508be5c80c3377a58b58.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/27cc765969ce9dcdbc0ae1c4624408fc039967657d6c508be5c80c3377a58b58.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/2a5b6a7be0f08df02d8ab0b4d4c68648c2695c6c7ef0658c71de4d42b1415b18.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2a5b6a7be0f08df02d8ab0b4d4c68648c2695c6c7ef0658c71de4d42b1415b18.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/2a5b6a7be0f08df02d8ab0b4d4c68648c2695c6c7ef0658c71de4d42b1415b18.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2a5b6a7be0f08df02d8ab0b4d4c68648c2695c6c7ef0658c71de4d42b1415b18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2ac51e554d789d6a89a2d887cc7d470fdfe247e6d13b3d925a58a3699b7d2a17.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2ac51e554d789d6a89a2d887cc7d470fdfe247e6d13b3d925a58a3699b7d2a17.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2b56b574d89834f6aa192f59fa6627b776a6c288e09dbc7d06c356f5bad5b3c0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2b56b574d89834f6aa192f59fa6627b776a6c288e09dbc7d06c356f5bad5b3c0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/310728536d740903b3d8796fef23573179061b5a912bbd4c39eb8140a6759deb.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/310728536d740903b3d8796fef23573179061b5a912bbd4c39eb8140a6759deb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/34658a1663fcf042bd7acb3325affbe4e647c8acd84d0228be2f52e1381e61b9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/34658a1663fcf042bd7acb3325affbe4e647c8acd84d0228be2f52e1381e61b9.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/34658a1663fcf042bd7acb3325affbe4e647c8acd84d0228be2f52e1381e61b9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/34658a1663fcf042bd7acb3325affbe4e647c8acd84d0228be2f52e1381e61b9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/3f6101a4d162eb6cd8ec1b1e4d68c331b86f949629d8a12b4a7a885c68fd8d58.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/3f6101a4d162eb6cd8ec1b1e4d68c331b86f949629d8a12b4a7a885c68fd8d58.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/47544793bbe8d06a34715c0d73df9afdfae613f29f12015855f3d9eceda75353.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/47544793bbe8d06a34715c0d73df9afdfae613f29f12015855f3d9eceda75353.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/55f07f8dd219f99104595404d42d8cee5e0744c6c5d3679594bebc52d1e7a880.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/55f07f8dd219f99104595404d42d8cee5e0744c6c5d3679594bebc52d1e7a880.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/56b248ae47b7692073e5916cd9380f0670068f9383cc2060d4e73be449c13bf8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/56b248ae47b7692073e5916cd9380f0670068f9383cc2060d4e73be449c13bf8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5a08498eba020f3d357fdca529346d583bc1dc6b3c6ba1aa1364810cfd9ad18b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5a08498eba020f3d357fdca529346d583bc1dc6b3c6ba1aa1364810cfd9ad18b.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/6bde4fc215c9fab98ecc6b29516e9ccd98bf31e9348e92ee13a8ea9d6e0babad.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6bde4fc215c9fab98ecc6b29516e9ccd98bf31e9348e92ee13a8ea9d6e0babad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6c5512236937b92cd7a296b24edb966c2bd94be46b8910f8b129a42d6150eb25.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6c5512236937b92cd7a296b24edb966c2bd94be46b8910f8b129a42d6150eb25.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6c5512236937b92cd7a296b24edb966c2bd94be46b8910f8b129a42d6150eb25.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6c5512236937b92cd7a296b24edb966c2bd94be46b8910f8b129a42d6150eb25.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6ccc6feb678649e810ad77f0d3b8a893a270d063d035aad3949093fa71afb6ce.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6ccc6feb678649e810ad77f0d3b8a893a270d063d035aad3949093fa71afb6ce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6ccc6feb678649e810ad77f0d3b8a893a270d063d035aad3949093fa71afb6ce.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6ccc6feb678649e810ad77f0d3b8a893a270d063d035aad3949093fa71afb6ce.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6ccc6feb678649e810ad77f0d3b8a893a270d063d035aad3949093fa71afb6ce_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6ccc6feb678649e810ad77f0d3b8a893a270d063d035aad3949093fa71afb6ce_screenshots.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/7ca3aac86b4a3785e624e0f6a1b14d1c5eaea8bfc79afaab5491caf9e43beaf2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7ca3aac86b4a3785e624e0f6a1b14d1c5eaea8bfc79afaab5491caf9e43beaf2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8258655ee7b842a15db290322eb548afb2cdbfbdb1f2df2b3f92307f9469e93a.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8258655ee7b842a15db290322eb548afb2cdbfbdb1f2df2b3f92307f9469e93a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8a5932f234a3c8a76a90354e6bc706cd4b6a929e53877f071ee09414ee4aa363.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8a5932f234a3c8a76a90354e6bc706cd4b6a929e53877f071ee09414ee4aa363.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/8c3c751dea203f8c4f82f55feeff22a496d3e0c84635cac99eca647602ee4a29.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8c3c751dea203f8c4f82f55feeff22a496d3e0c84635cac99eca647602ee4a29.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/95cb6f5a767c9ebb398c0e8bb165028008e705defff1e55714c798b78e6daa6e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/95cb6f5a767c9ebb398c0e8bb165028008e705defff1e55714c798b78e6daa6e.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a0ec4af0a2db66411739683cb6f25349ea38f187688b9d83206c32c846025b81.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a0ec4af0a2db66411739683cb6f25349ea38f187688b9d83206c32c846025b81.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/995f2646ed23051cbed4bd333a65bf53c37c902c28dd3f62f58fee3d28e6a072.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/995f2646ed23051cbed4bd333a65bf53c37c902c28dd3f62f58fee3d28e6a072.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/995f2646ed23051cbed4bd333a65bf53c37c902c28dd3f62f58fee3d28e6a072.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/995f2646ed23051cbed4bd333a65bf53c37c902c28dd3f62f58fee3d28e6a072.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9c82e52eefb0d1c3362b64d5e02a6cb131c571cc91d8bcdc7ea45345fe2d729e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9c82e52eefb0d1c3362b64d5e02a6cb131c571cc91d8bcdc7ea45345fe2d729e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6ccc6feb678649e810ad77f0d3b8a893a270d063d035aad3949093fa71afb6ce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6ccc6feb678649e810ad77f0d3b8a893a270d063d035aad3949093fa71afb6ce.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-995f2646ed23051cbed4bd333a65bf53c37c902c28dd3f62f58fee3d28e6a072.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-995f2646ed23051cbed4bd333a65bf53c37c902c28dd3f62f58fee3d28e6a072.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b58214034396af535ba25d568327b6048992bcd1a16b2afd4d99dd2ac9f588fc.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b58214034396af535ba25d568327b6048992bcd1a16b2afd4d99dd2ac9f588fc.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b6821741f73d73fa33d72f5bfa2b3e5f4616b49960ecc9aeff223c8fafb1d27d.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b6821741f73d73fa33d72f5bfa2b3e5f4616b49960ecc9aeff223c8fafb1d27d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bf36ce27899552f88042e0c75f0822256aa3e7bad50de25281d9e069501ee107.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bf36ce27899552f88042e0c75f0822256aa3e7bad50de25281d9e069501ee107.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-edge.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-edge.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c42bdbaffb73d4b3c9f8e06d9bcf7d7c5ebefc9edff09a25c090639a65e6d82c.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c42bdbaffb73d4b3c9f8e06d9bcf7d7c5ebefc9edff09a25c090639a65e6d82c.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d853d81dd04993bacd31a617f4bfb18e2601800f0824e7da77dacfb286a5367b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d853d81dd04993bacd31a617f4bfb18e2601800f0824e7da77dacfb286a5367b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e493309d0031091ae9bf9b0514e9bd2a4ec8a30b51666202759471906f7af061.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/e493309d0031091ae9bf9b0514e9bd2a4ec8a30b51666202759471906f7af061.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e9fb7ce137404361f729adb5abfc02e0edbe59155be2358b448c9bf7e86a9320.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/e9fb7ce137404361f729adb5abfc02e0edbe59155be2358b448c9bf7e86a9320.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/fa21f79ea145271e16686da175fbf135d7bb3d6c57f7e0bd2b0ae6e1cd35571f.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/fa21f79ea145271e16686da175fbf135d7bb3d6c57f7e0bd2b0ae6e1cd35571f.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
@@ -83,13 +122,37 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;gabriel&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriel/Desktop/NuevoRepo/AutomatizacionOccidente&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriel/Desktop/SEMILLERO AUTOMATIZACION/clase1Java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Runner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RunnerSpotify (1)">
+    <configuration name="Scenario: Login exitoso en spotify" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feautres/LoginSpotify.feature" />
+      <option name="GLUE" value="com.spotify.stepDefinitions net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomatizacionOccidente.test" />
+      <option name="NAME_FILTER" value="^Login exitoso en spotify$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login exitoso en spotify$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login exitoso en spotify" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlazeRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -102,7 +165,79 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.alkomprar.runner.Runner&quot;" />
+            <option value="&quot;com.demoblaze.runner.BlazeRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Runner (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.spotify.runner.Runner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RunnerSpotify (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.spotify.runner.RunnerSpotify&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RunnerSpotify" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.alkomprar.runner.RunnerSpotify&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -115,7 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Runner" />
+        <item itemvalue="Gradle.RunnerSpotify (1)" />
+        <item itemvalue="Gradle.RunnerSpotify" />
+        <item itemvalue="Gradle.Runner (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Login exitoso en spotify" />
+        <item itemvalue="Gradle.BlazeRunner" />
       </list>
     </recent_temporary>
   </component>
