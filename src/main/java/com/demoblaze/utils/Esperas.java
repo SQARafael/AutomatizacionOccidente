@@ -10,7 +10,7 @@ import java.time.Duration;
 public class Esperas {
 
     public static void espera1(WebDriver webDriver, By by){
-        WebDriverWait  wait=new WebDriverWait(webDriver, Duration.ofSeconds(5));
+        WebDriverWait  wait=new WebDriverWait(webDriver, Duration.ofSeconds(20));
         wait.until(
                 ExpectedConditions.elementToBeClickable(by)
         );

@@ -1,7 +1,5 @@
 package com.open.spotify.stepDefinition;
-import com.open.spotify.steps.InicioSesionSteps;
-import com.open.spotify.steps.PaginaInicialSteps;
-import com.open.spotify.steps.PaginaUsuarioSteps;
+import com.open.spotify.steps.*;
 import io.cucumber.java.es.*;
 import net.thucydides.core.annotations.Steps;
 
@@ -16,6 +14,11 @@ public class LoginSpotifyStepdefinitions {
     @Steps
     PaginaUsuarioSteps paginaUsuarioSteps;
 
+    @Steps
+    ValidacionPerfil validacionPerfil;
+
+    @Steps
+    ReproducirCancionSteps reproducirCancionSteps;
 
    @Dado("que el usuario abre el navegador y de clic al boton login")
     public void queElUsuarioAbreElNavegadorYDeClicAlBotonLogin() {
@@ -29,10 +32,13 @@ public class LoginSpotifyStepdefinitions {
         inicioSesionSteps.clickInicioSpotify();
     }
     @Entonces("el usuario podrá ver su perfil")
-    public void elUsuarioPodráVerSuPerfil() {
+    public void elUsuarioPodráVerSuPerfil() throws InterruptedException {
+        validacionPerfil.validacionPerfil();
         paginaUsuarioSteps.clickReproductor();
         paginaUsuarioSteps.buscarCancion();
-        //paginaUsuarioSteps.reproduccirCancion();
+        paginaUsuarioSteps.seleccionarCancion();
+        reproducirCancionSteps.seleccionarLista();
+        reproducirCancionSteps.reproducirCancion();
 
     }
 }

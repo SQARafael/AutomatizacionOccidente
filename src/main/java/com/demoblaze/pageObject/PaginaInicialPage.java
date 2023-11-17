@@ -9,8 +9,7 @@ public class PaginaInicialPage extends PageObject {
 
     //private final By lnkLogin= By.id("login2");
     private final By lnkLogin= By.xpath("//a[@id='login2']");//accion sobre el boton eleccion
-
-    private final By lnkProfile= By.xpath("//a[@id='nameofuser']");
+    private final By lnkProfile= By.xpath("//a[@id='nameofuser']");// validar perfil
 
     public By getLnkLogin() {// siempre se crea el get
         return lnkLogin;

@@ -37,7 +37,7 @@ public class LoginBlazeStepdefinitions {
         //String pssw="1234";
         //inicioSesionSteps.insertarUsuario();
         //inicioSesionSteps.insertarClave();
-        inicioSesionSteps.insertarCredenciales(usuario,clave);
+        inicioSesionSteps.insertarCredenciales();
         inicioSesionSteps.clickInicioSesion();
     }
     @Entonces("el usuario podrá ver la bienvenida del perfil")

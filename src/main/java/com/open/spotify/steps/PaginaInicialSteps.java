@@ -12,12 +12,14 @@ public class PaginaInicialSteps    {
 
     @Step("Abrir el navegador")
     public void abrirNavegador(){
-        paginaInicialPage.openUrl("https://open.spotify.com/intl-es");
+        paginaInicialPage.
+                openUrl("https://open.spotify.com/intl-es");
     }
 
     @Step("Click en boton Login")
     public void clickLogin(){
-        paginaInicialPage.getDriver().findElement(paginaInicialPage.getLnkLogin()).click();
+        paginaInicialPage.getDriver().
+                findElement(paginaInicialPage.getLnkLogin()).click();
     }
 
 }
