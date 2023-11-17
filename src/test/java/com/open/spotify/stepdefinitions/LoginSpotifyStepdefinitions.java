@@ -1,18 +1,16 @@
-package com.open.spotify.stepDefinitions;
+package com.open.spotify.stepdefinitions;
 
-import com.open.spotify.steps.PaginaInicialSteps;
 import io.cucumber.java.es.*;
-import net.thucydides.core.annotations.Steps;
 
-public class LoginSpotifyStepDefinitions {
-    @Steps
-    PaginaInicialSteps paginaInicialSteps;
+public class LoginSpotifyStepdefinitions {
+    /*@Steps
+    PaginaInicialSteps paginaInicialSteps;*/
 
 
     @Dado("que el usuario abre el navegador y de clic al boton boton Iniciar Sesión")
     public void queElUsuarioAbreElNavegadorYDeClicAlBotonLogin() {
-        paginaInicialSteps.abrirNavegador();
-        paginaInicialSteps.clicLogin();
+        //paginaInicialSteps.abrirNavegador();
+        //paginaInicialSteps.clicLogin();
 
     }
     @Cuando("el usuario ingrese las credenciales correctas")

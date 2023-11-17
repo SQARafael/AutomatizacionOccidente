@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/spotify/LoginSpotify.feature",
-        glue = "com.open.spotify.stepDefinitions",
+        glue = "com.open.spotify.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class SpotifyRunner {
