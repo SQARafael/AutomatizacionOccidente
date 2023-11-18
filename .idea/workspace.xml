@@ -4,22 +4,202 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1faf5c2b-76e8-4b3f-931e-3ebb954ad0d8" name="Changes" comment="" />
+    <list default="true" id="1faf5c2b-76e8-4b3f-931e-3ebb954ad0d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/accounts/pageObjectModel/AccountPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/accounts/steps/AccountPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/open/pageObjectModel/PaginaInicialPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/open/pageObjectModel/PrincipaPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/open/steps/PaginaInicialSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/open/steps/PrincipalPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/runner/BlazeRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepDefinitions/LoginBlazeStepdefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/open/stepDefinitions/loginSpotifySetepdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spotify/open/stepDefinitions/loginSpotifySetepdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feautres/LoginBlaze.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginSpotify.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feautres/spotify/LoginSpotify.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/09053b82ede7eaee72ae5af3d546abb8eefb926d2dd3a7952f9b4f894c105853.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/09053b82ede7eaee72ae5af3d546abb8eefb926d2dd3a7952f9b4f894c105853.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2a5b6a7be0f08df02d8ab0b4d4c68648c2695c6c7ef0658c71de4d42b1415b18.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2a5b6a7be0f08df02d8ab0b4d4c68648c2695c6c7ef0658c71de4d42b1415b18.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2a5b6a7be0f08df02d8ab0b4d4c68648c2695c6c7ef0658c71de4d42b1415b18.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2a5b6a7be0f08df02d8ab0b4d4c68648c2695c6c7ef0658c71de4d42b1415b18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2ce272fad045391251880826601eed4a6b938b4528c83ee0faf0d4aab55312bd.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2ce272fad045391251880826601eed4a6b938b4528c83ee0faf0d4aab55312bd.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4ebee1837bc15ac20cbf71286fef513b28920fd6eea2d353bcb909a0ffe641dd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4ebee1837bc15ac20cbf71286fef513b28920fd6eea2d353bcb909a0ffe641dd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6bde4fc215c9fab98ecc6b29516e9ccd98bf31e9348e92ee13a8ea9d6e0babad.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6bde4fc215c9fab98ecc6b29516e9ccd98bf31e9348e92ee13a8ea9d6e0babad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7ca3aac86b4a3785e624e0f6a1b14d1c5eaea8bfc79afaab5491caf9e43beaf2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7ca3aac86b4a3785e624e0f6a1b14d1c5eaea8bfc79afaab5491caf9e43beaf2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8c3c751dea203f8c4f82f55feeff22a496d3e0c84635cac99eca647602ee4a29.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8c3c751dea203f8c4f82f55feeff22a496d3e0c84635cac99eca647602ee4a29.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/95cb6f5a767c9ebb398c0e8bb165028008e705defff1e55714c798b78e6daa6e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/95cb6f5a767c9ebb398c0e8bb165028008e705defff1e55714c798b78e6daa6e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-d510115ad9ee5dafcb0ae374cda7aed545bd79aad7cf404c39000d1dffe76aa0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-d510115ad9ee5dafcb0ae374cda7aed545bd79aad7cf404c39000d1dffe76aa0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bbd71b26da1c1db28331eaa201ea19fcac2976e411f4b44a424b4b8e11c3add2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bbd71b26da1c1db28331eaa201ea19fcac2976e411f4b44a424b4b8e11c3add2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d42b4794b8ad02f3175df7d4a63a1e329d9a2e53ace8301e2fddedead615daed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d42b4794b8ad02f3175df7d4a63a1e329d9a2e53ace8301e2fddedead615daed.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d510115ad9ee5dafcb0ae374cda7aed545bd79aad7cf404c39000d1dffe76aa0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d510115ad9ee5dafcb0ae374cda7aed545bd79aad7cf404c39000d1dffe76aa0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d510115ad9ee5dafcb0ae374cda7aed545bd79aad7cf404c39000d1dffe76aa0.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d510115ad9ee5dafcb0ae374cda7aed545bd79aad7cf404c39000d1dffe76aa0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/fa21f79ea145271e16686da175fbf135d7bb3d6c57f7e0bd2b0ae6e1cd35571f.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/fa21f79ea145271e16686da175fbf135d7bb3d6c57f7e0bd2b0ae6e1cd35571f.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2XzYiwczYovEaNOk3r1qHVXWIjT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "Miguel__Ochoa",
+    "last_opened_file_path": "C:/Users/migue/Documents/GitHub/AutomatizacionOccidente",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\migue\Documents\GitHub\AutomatizacionOccidente\src\test\resources\feautres" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Login exitoso en demo spotify (1)">
+    <configuration name="Scenario: Login exitoso en demo spotify (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginSpotify.feature" />
+      <option name="GLUE" value="com.spotify.open.stepDefinitions net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomatizacionOccidente.test" />
+      <option name="NAME_FILTER" value="^Login exitoso en demo spotify$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login exitoso en demo spotify$&quot;" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login exitoso en demo spotify" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login exitoso en demo spotify" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feautres/LoginSpotify.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomatizacionOccidente.test" />
+      <option name="NAME_FILTER" value="^Login exitoso en demo spotify$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login exitoso en demo spotify$&quot;" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login exitoso en demo spotify" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpotifyRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.spotify.open.runner.SpotifyRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Scenario: Login exitoso en demo blaze" type="cucumber.js" factoryName="Cucumber.js" temporary="true">
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/feautres/LoginSpotify.feature" />
+      <option name="myNameFilter" value="^Login exitoso en demo blaze$" />
+      <option name="cucumberJsArguments" value="" />
+      <option name="workingDirectory" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Login exitoso en demo spotify (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Login exitoso en demo spotify" />
+        <item itemvalue="Cucumber.js.Scenario: Login exitoso en demo blaze" />
+        <item itemvalue="Gradle.SpotifyRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="FluentLenium" />
+    <option name="lastLanguageId" value="JAVA" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -29,8 +209,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699633510461</updated>
+      <workItem from="1699833273797" duration="3062000" />
+      <workItem from="1699969566125" duration="1185000" />
+      <workItem from="1700272869007" duration="15922000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
