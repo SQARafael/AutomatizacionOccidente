@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @autor Rafael Chica
@@ -17,11 +18,19 @@ import java.time.Duration;
  */
 public class Esperas {
 
+    //EXPLICITA
     public static void espera1(WebDriver webDriver, By by){
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(5));
         wait.until(
                 ExpectedConditions.elementToBeClickable(by)
         );
+
+    }
+    public static void espera2(WebDriver webDriver){
+        //implicita
+
+        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
 
     }
 }
