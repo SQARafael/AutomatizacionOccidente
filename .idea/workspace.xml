@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="1faf5c2b-76e8-4b3f-931e-3ebb954ad0d8" name="Changes" comment="" />
+=======
     <list default="true" id="1faf5c2b-76e8-4b3f-931e-3ebb954ad0d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/steps/InicioSesionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/steps/InicioSesionSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/utils/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/utils/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
+>>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +21,31 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+<<<<<<< HEAD
+=======
+        <projects_view />
+>>>>>>> main
+=======
+>>>>>>> main
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -28,21 +54,79 @@
     </option>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+=======
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
+>>>>>>> main
+=======
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+>>>>>>> main
   <component name="ProjectId" id="2XzYiwczYovEaNOk3r1qHVXWIjT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;AlejandraFranco&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Semillero Automatización/1ClaseAutomatizacion/AutomatizacionOccidente&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Gradle.BlazeRunner">
+    <configuration name="Scenario: Login exitoso en demo blaze" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feautres/LoginBlaze.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.demoblaze.stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomatizacionOccidente.test" />
+      <option name="NAME_FILTER" value="^Login exitoso en demo blaze$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login exitoso en demo blaze$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login exitoso en demo blaze" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/semillero/Occidente/AutomatizacionOccidente/src/main/resources/Data",
+    "git-widget-placeholder": "main",
+<<<<<<< HEAD
+    "last_opened_file_path": "C:/semillero/Occidente/AutomatizacionOccidente/src/main/java/com/demoblaze/utils",
+=======
+    "last_opened_file_path": "C:/Semillero_Automatizacion/1ClaseAutomatizacionRefactorizadoExcel/AutomatizacionOccidente",
+>>>>>>> main
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -54,6 +138,7 @@
     </key>
   </component>
   <component name="RunManager">
+>>>>>>> main
     <configuration name="BlazeRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -75,11 +160,47 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+<<<<<<< HEAD
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="SpotifyRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.open.spotify.runners.SpotifyRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+=======
+>>>>>>> main
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.BlazeRunner" />
+        <item itemvalue="Gradle.SpotifyRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Login exitoso en demo blaze" />
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BlazeRunner" />
+>>>>>>> main
       </list>
     </recent_temporary>
   </component>
